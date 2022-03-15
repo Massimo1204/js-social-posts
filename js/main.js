@@ -255,7 +255,3 @@ function weeksPassed(past,now){
     const current = Date.UTC(now.slice(0,4),now.slice(5,7),now.slice(8,10));
     return Math.floor((current-birth)/(1000*60*60*24*7));
 }
-
-function randomNumber(max,min){
-    return Math.floor(Math.random()*max)+min;
-}
